@@ -1,0 +1,58 @@
+{
+
+    "workbench.colorCustomizations": {
+        //"activityBar.background": "#06011b",
+         //"editorIndentGuide.background": "#32353E",
+         //"sideBar.background": "#0a0422",
+         //"tab.inactiveBackground": "#32353E"
+         "editor.background": "#00071c"
+     },
+     "editor.tokenColorCustomizations": {
+         "functions": "#fd9800",
+         "keywords": "#FF0046",
+         "variables": "#00fe5a",
+         "types": "#9e14ff",
+         "strings": "#0997f5",
+         "comments": "#99f800",
+ 
+             "textMateRules": [
+                 {
+                     
+                     "scope": "meta.function-call",
+                     
+                     "settings": {
+                         "foreground": "#fec80d"
+                     }
+                 
+                 },
+                 {
+                     "scope": "variable.other",
+                     
+                     "settings": {
+                         "foreground": "#00fe5a"
+                     }
+                 },
+                 {
+                     "scope": "constant.numeric",
+                     
+                     "settings": {
+                         "foreground": "#ff0000"
+                     }
+                 },
+                 {
+                     "scope": "keyword.operator",
+                     
+                     "settings": {
+                         "foreground": "#0dfec8"
+                     }
+                 },
+                 {
+                    "scope": "meta.block",
+                    
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                }
+             ]
+     }
+}
